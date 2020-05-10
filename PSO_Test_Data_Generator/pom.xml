@@ -1,0 +1,29 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>PSO_Test_Data_Generator</groupId>
+  <artifactId>PSO_Test_Data_Generator</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <description>PSO Test Generator</description>
+  
+  <build>
+    <sourceDirectory>src</sourceDirectory>
+    <plugins>
+      <plugin>
+        <artifactId>maven-compiler-plugin</artifactId>
+        <version>3.8.0</version>
+        <configuration>
+          <release>11</release>
+        </configuration>
+      </plugin>      
+    </plugins>
+  </build>
+  
+  <dependencies>
+	  <dependency>
+	    <groupId>ca.mcgill.sable</groupId>
+	    <artifactId>soot</artifactId>
+	    <version>4.1.0</version>
+	  </dependency>
+	</dependencies>
+	
+</project>
